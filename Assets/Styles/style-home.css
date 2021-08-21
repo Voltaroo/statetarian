@@ -1,0 +1,107 @@
+/*? Content Part */
+.content-div {
+    /* padding: 1vw; */
+    /* width: 60%; */
+    height: 100%;
+    /* border-left: .2vh solid #ff2222;
+    border-right: .2vh solid #ff2222; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*? Welcome div */
+.welcome-div-shader {
+    /* border-bottom: .2vh solid #ff2222; */
+    background: url(../Images/Slovianska_Pravda.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 1vw;
+    height: 85%;
+}
+.welcome-div {
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wd-header {
+    font-size: 4vw;
+    display: block;
+    font-weight: bold;
+    flex: 1;
+}
+.wd-subheader {
+    font-size: 1.2vw;
+}
+
+.read-more {
+    /* display: block; */
+    font-size: 1vw;
+    width: 100%;
+    text-align: center;
+    margin-top: 5vw;
+}
+.read-more a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: .5vw;
+    background-color: #520000;
+    border: .4vh solid #ff0000;
+}
+
+/*? Article div */
+/* .article-div {
+
+}
+.article-header-div {
+    padding: 0 1vw;
+}
+
+.article-date {
+    font-size: .8vw;
+}
+
+.article-header {
+    font-size: 1.2vw;
+    display: block;
+}
+
+.article-div {
+    width: 100%;
+    border-top: .2vh solid #ff2222;
+    border-bottom: .2vh solid #ff2222;
+    margin-top: 2vw;
+    padding: 2vw 0;
+}
+
+.article-content-div {
+    display: flex;
+}
+
+.article-content-div img {
+    width: 10vw;
+    float: left;
+    padding: 1vw;
+}
+
+.article-text {
+    vertical-align: middle;
+    float: right;
+    padding: 1vw;
+}
+
+.read-more-button {
+    float: right;
+    padding: 2vw 2vw 2vw 2vw;
+    display: block;
+}
+
+.read-more-button:hover {
+    color: #c21919;
+    transition: .5s;
+} */
+
+
