@@ -12,7 +12,7 @@
 /*? Welcome div */
 .welcome-div-shader {
     /* border-bottom: .2vh solid #ff2222; */
-    background: url(../Images/Slovianska_Pravda.png) no-repeat;
+    /* background: url(../Images/Slovianska_Pravda.png) no-repeat; */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -48,8 +48,8 @@
     text-decoration: none;
     color: #ffffff;
     padding: .5vw;
-    background-color: #520000;
-    border: .4vh solid #ff0000;
+    background-color: #c3073f;
+    border: .4vh solid #6F2232;
 }
 
 /*? Article div */
