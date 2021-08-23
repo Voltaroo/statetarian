@@ -12,15 +12,15 @@
 /*? Welcome div */
 .welcome-div-shader {
     /* border-bottom: .2vh solid #ff2222; */
-    /* background: url(../Images/Slovianska_Pravda.png) no-repeat; */
+    background: url(../Images/adadadadadadadguguguJAKUBEK.png) no-repeat;
     background-size: cover;
-    background-position: center;
     text-align: center;
     font-size: 1vw;
     height: 85%;
 }
 .welcome-div {
-    background-color: rgb(0, 0, 0, 0.5);
+    /* background-color: #1a1a1d62; */
+    background-color: rgb(0,0,0,0.5);
     height: 100%;
     opacity: 1;
     display: flex;
