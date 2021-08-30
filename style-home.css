@@ -75,9 +75,7 @@ html {
 
 
 /*? Content Div */
-.content-div {
-
-}
+/* .content-div {  } */
 
 /*? "Stay tuned" Div */
 .stay-tuned-div {
@@ -108,33 +106,16 @@ html {
     width: 100%;
 }
 
-::-webkit-scrollbar {
-    /* background-image: url(../73451682/11005122422730771.webp); */
-    
-    /* border: .2vh solid red; */
-    /* border-collapse: collapse; */
-    background: inherit;
-}
+/* ::-webkit-scrollbar {  } */
 ::-webkit-scrollbar-thumb:hover {
     background-color: #ff0000;
-    transition: 1.5s;
-
 }
-
 ::-webkit-scrollbar-button:vertical:decrement {
-    /* background-image: url(../73451682/74573658976160510.webp); */
-    background-size: cover;
-    /* border: .2vh solid red; */
     background-color: #500020;
 }
-
 ::-webkit-scrollbar-button:vertical:increment {
-    /* background-image: url(../73451682/48864296335591968.webp); */
-    /* border: .2vh solid red; */
-    background-size: cover;
     background-color: #500020;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: #950740;
     border-radius: 10%;
