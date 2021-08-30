@@ -1,89 +1,57 @@
 <html lang="en">
     <head>
-        <!--TODO add meta link preview attr. and param. of websites  -->
-        <!--? Main meta's  -->
+        <!--TODO pridať must-have metas -->
+        <!--TODO pridať OGs -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Home - Statetarian. What would be going on with the borders if the history was and will be different.">
-        <!--TODO change to "true" once mobile view will be fixed -->
-        <meta name="HandHeldFriendly" content="false">
-        <meta name="theme-color" content="#950740">
-        <!--? OG's -->
-        <!--TODO change to statetarian's domain name once it will be bought -->
-        <meta property="og:url" content="https://voltaroo.github.io/statetarian/home">
-        <meta property="og:site_name" content="Statetarian">
-        <meta property="og:type" content="website"aaaa>
-        <meta itemprop="name" property="og:title" content="Home | Statetarian">
-        <meta itemprop="description" property="og:description" content="Home - Statetarian. What would be going on with the borders if the history was and will be different.">
-        <meta property="og:image" content="https://voltaroo.github.io/statetarian/Assets/Images/statetarian_icn.png">
-        <meta property="og:image:type" content="image/png">
-        <meta property="og:image:width" content="360">
-        <meta property="og:image:height" content="360">
-        <!--? Twitter attr. -->
-        <meta name="twitter:title" content="Home | Statetarian">
-        <meta name="twitter:description" content="Home - Statetarian. What would be going on with the borders if the history was and will be different.">
-        <meta name="twitter:image" content="https://voltaroo.github.io/statetarian/Assets/Images/statetarian_icn.png"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <!--TODO rename file names and icon names to generated text -->
-        <link rel="icon" type="image/x-icon" href="Assets/Images/statetarian_icn.png">
-        <link rel="shortcut icon" href="Assets/Images/statetarian_icn.png" type="image/x-icon">
-        <link rel="stylesheet" href="Assets/Styles/style-main.css">
-        <link rel="stylesheet" href="Assets/Styles/style-home.css">
-        <title>Home &VerticalLine; Statetarian</title>
+        <!--TODO zmeniť názov súborov na súbor čísel, písmen a znakov -->
+        <link rel="stylesheet" href="style-home.css">
+        <title>Home &VerticalLine; Shorfolk Tavern</title>
     </head>
     <body>
-        <div class="fix-div">
-            <div class="header-div">
-                <div class="header">
-                    <span class="header-text">Statetarian</span>
-                </div>
-            </div>
-            <div class="menu-div">
-                <a href="#">Home</a>
-                <div id="maps" class="dropdown-menu">
-                    <button id="button01" class="dropdown-button" /*onclick="openDropdown(1)"*/>Maps</button>
-                    <div id="dropDwn01" class="dropdown-menu-content maps">
-                        <a href="#">Historical Maps</a>
-                        <a href="#">Alternative Maps</a>
-                    </div>
-                </div>
-                <div id="vex" class="dropdown-menu vex">
-                    <button id="button02" class="dropdown-button" /*onclick="openDropdown(2)"*/>Vexillology</button>
-                    <div id="dropDwn02" class="dropdown-menu-content vex">
-                        <a href="#">Emblems</a>
-                        <a href="#">Coat of Arms</a>
-                        <a href="#">Flags</a>
-                    </div>
-                </div>
-                <div id="socg" class="dropdown-menu socg">
-                    <button id="button03" class="dropdown-button" /*onclick="openDropdown(3)*/">Social Groups</button>
-                    <div id="dropDwn03" class="dropdown-menu-content socg">
-                        <a href="#">Tribes</a>
-                        <a href="#">Chiefdoms</a>
-                        <a href="#">Countries</a>
-                        <a href="#">States</a>
-                        <a href="#">Unions</a>
-                    </div>
-                </div>
-                <a href="#">About project</a>
-            </div>
-            <div class="content-div">
-                <div class="welcome-div-shader">
-                    <div class="welcome-div">
-                        <div>
-                            <span class="wd-header">Welcome to Statetarian!</span>
-                            <span class="wd-subheader">Site focused on symbolical parts of history, real one and alternative.</soan>
-                            <div class="read-more">
-                                <a href="#">Read more</a>        
-                            </div>
+        <div class="page-fixer">
+            <!--TODO pridať href na home.html pre názov stránky -->
+            <!--TODO zmeniť src pre obrázky z local directory na url -->
+            <div class="phone-header-div">
+                <div style="display: flex">
+                    <div class="phone-header-main">
+                        <div class="phone-logo-image">
+                            <img src="statetarian_icn.png">
+                        </div>
+                        <div class="phone-logo-text">
+                            <span class="phone-logo-header">
+                                S T A T E T A R I A N
+                            </span>
+                            <span class="phone-logo-motto">
+                                Site focused on symbolical parts of history, real one and alternative.
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="computer-header-div">
+                <div class="computer-header-text">
+                    Statetarian
+                </div>
+                <div class="computer-header-motto">
+                    Site focused on symbolical parts of history, real one and alternative.        
+                </div>
+            </div>
+            <div class="stay-tuned-div">
+                <span class="st-header">
+                    Stay tuned!
+                </span>
+                <span class="st-text">
+                    More content will be added soon...
+                </span>
+            </div>
+            <!-- <div class="content-div">
+                <div class="scroll-test-heavy">
+                    <span>TOO HEAVY TO BE UP.</span>
+                    
+                </div>
+            </div> -->
         </div>
     </body>
-    <!--TODO rename file names -->
-    <script src="Assets/Scripts/Constantine.js"></script>
-    <script src="Assets/Scripts/script-home.js"></script>
 </html>

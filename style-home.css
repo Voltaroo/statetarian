@@ -1,0 +1,197 @@
+/*TODO Používať nasledovnú paletu farieb:  */
+/*? #1A1A1D - pozadie pre stránky / komponenty */
+/*? #  */
+/*? #950740 - písmo (nadpisy, podnadpisy, špeciálny text */
+/*? #950740 - borders, čiary a špeciálne att. */
+
+/*TODO Štýly písma */
+/*? Nadpisy, podnadpisy a špeciálne texty: Blockchancery (https://www.1001fonts.com/blackchancery-font.html) */
+/*? Texty, články a ostatné textové časti: */
+
+
+/*? Main components */
+html {
+    background-color: #1A1A1D;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+.page-fixer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+/*? Mobile - Header Div */
+.phone-header-div {
+    display: none;
+    width: 100%;
+    border-bottom: .2vh solid #950740;
+    overflow: hidden;
+}
+.phone-header-main {
+    padding: 1vw 0 0 1vw;
+    display: flex;
+}
+.phone-logo-image {
+    height: 4vw;    
+}
+.phone-logo-image img {
+    width: 3vw;
+    pointer-events: none;
+    user-select: none;
+} 
+.phone-logo-text {
+    padding-left: 1vw;
+}
+.phone-logo-text span {
+    font-weight: bold;
+    display: block;
+}
+.phone-logo-header {
+    font-size: 1.5vw;
+}
+.phone-logo-motto {
+    font-size: 1vw;
+}
+
+/*? Computer - Header Div */
+.computer-header-div {
+    /* display: none; */
+    text-align: center;
+    width: 100%;
+    border-bottom: .2vh solid #950740;
+    padding: 1vw 0;
+}
+.computer-header-text {
+    color: #950740;
+    font-size: 3vw;
+    font-family: 'BLKCHCRY';
+}
+.computer-header-motto {
+    font-size: 1.1vw;
+}
+
+
+/*? Content Div */
+.content-div {
+
+}
+
+/*? "Stay tuned" Div */
+.stay-tuned-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 15%;
+}
+.stay-tuned-div span {
+    display: block;
+}
+.st-header {
+    font-size: 4vw;
+    font-family: 'BLKCHCRY';
+    color: #950740;
+    animation: stHeaderGlow 2s infinite;
+}
+.st-text {
+    font-size: 2vw;
+}
+
+/*? Scrollbar */
+.scroll-test-heavy span {
+    position: absolute;
+    margin-top: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    /* background-image: url(../73451682/11005122422730771.webp); */
+    
+    /* border: .2vh solid red; */
+    /* border-collapse: collapse; */
+    background: inherit;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff0000;
+    transition: 1.5s;
+
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    /* background-image: url(../73451682/74573658976160510.webp); */
+    background-size: cover;
+    /* border: .2vh solid red; */
+    background-color: #500020;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    /* background-image: url(../73451682/48864296335591968.webp); */
+    /* border: .2vh solid red; */
+    background-size: cover;
+    background-color: #500020;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #950740;
+    border-radius: 10%;
+}
+
+
+/*! Mobile view parameters */
+@media screen and (min-width: 360px) and (min-height: 640px) and (max-height: 1100px) and (max-width: 1100px) {
+
+    /*? Disabling Computer Divs */
+    .computer-header-div { display: none; }
+
+    /*? Header Div */
+    .phone-header-div {
+        background-color: rgb(37, 37, 37);
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }    
+    .phone-logo-image {
+        height: 10vw;
+    }
+    .phone-logo-image img {
+        width: 8vw;
+    }
+    .phone-header-main {
+        padding: 4vw 0 0 3vw;
+    }
+    .phone-logo-header {
+        font-size: 3.5vw;
+    }
+    .phone-logo-motto {
+        font-size: 2.5vw;
+    }
+
+    /*? "Stay tuned" Div */
+    .stay-tuned-div {
+        padding-top: 80%;
+    }
+    .st-header {
+        font-size: 10vw;
+    }
+    .st-text {
+        padding-top: 1vw;
+        font-size: 5vw;
+    }
+}
+
+/*? at-rules */
+@font-face {
+    font-family: 'BLKCHCRY';
+    src: url(BLKCHCRY.TTF);
+}
+
+@keyframes stHeaderGlow {
+      0% { color: #FFFFFF; }
+     50% { color: #950740; }
+    100% { color: #FFFFFF; }
+}
